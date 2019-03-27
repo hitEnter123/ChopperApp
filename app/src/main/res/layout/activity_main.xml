@@ -12,23 +12,21 @@
         android:id="@+id/textView"
         android:layout_width="219dp"
         android:layout_height="45dp"
-        android:layout_below="@+id/imageView12"
+        android:layout_above="@+id/imageView"
         android:layout_centerInParent="false"
         android:layout_centerHorizontal="true"
         android:text="This is Chopper"
         android:textColor="@android:color/background_light"
         android:textSize="30sp"
+        android:background="@color/colorAccent"
         tools:layout_editor_absoluteX="96dp"
         tools:layout_editor_absoluteY="560dp"/>
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="316dp"
-        android:layout_height="354dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/chopper_head"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="188dp"/>
+        app:srcCompat="@drawable/chopper_head"/>
 
 </RelativeLayout>
